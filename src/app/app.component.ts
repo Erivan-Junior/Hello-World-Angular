@@ -7,4 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'hello-world';
+  aluno: String;
+
+  constructor() {
+    this.aluno = 'Erivan Soares Leite Junior'
+  }
 }
